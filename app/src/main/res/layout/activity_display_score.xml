@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintHeight_default="percent"
+    app:layout_constraintWidth_default="percent"
+    tools:context="com.hearatale.bw2000.ui.display_score.DisplayScoreActivity">
+
+    <FrameLayout
+        android:id="@+id/container_animation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/button_close"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.125" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.875" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.125" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.875" />
+
+        <LinearLayout
+            android:id="@+id/layout_list_car_one"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/guideline1"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toTopOf="@+id/guideline2">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:src="@drawable/bank" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:src="@drawable/bank" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:src="@drawable/bank" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:src="@drawable/bank" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:src="@drawable/bank" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_list_car_two"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/guideline1"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/layout_list_car_one">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:src="@drawable/green_armored_truck" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/red_armored_truck" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/green_armored_truck" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/red_armored_truck" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/green_armored_truck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_list_bag"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/guideline1"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/layout_list_car_two">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/bag" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:src="@drawable/bag" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/bag" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/bag" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:src="@drawable/bag" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_list_stack_coin"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/guideline1"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/layout_list_bag">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:padding="@dimen/dp_4"
+                android:src="@drawable/coin_stack" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="@dimen/dp_4"
+                android:src="@drawable/coin_stack" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="@dimen/dp_4"
+                android:src="@drawable/coin_stack" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="@dimen/dp_4"
+                android:src="@drawable/coin_stack" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="@dimen/dp_4"
+                android:src="@drawable/coin_stack" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_list_gold_coin"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/guideline3"
+            app:layout_constraintEnd_toStartOf="@+id/guideline1"
+            app:layout_constraintHeight_percent="0.15"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline"
+            app:layout_constraintTop_toBottomOf="@+id/layout_list_stack_coin">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:padding="@dimen/dp_4"
+                android:src="@drawable/gcoin" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="@dimen/dp_4"
+                android:src="@drawable/gcoin" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="@dimen/dp_4"
+                android:src="@drawable/gcoin" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="@dimen/dp_4"
+                android:src="@drawable/gcoin" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="@dimen/dp_4"
+                android:src="@drawable/scoin" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/view_totalscore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.125"
+            app:layout_constraintStart_toStartOf="@+id/guideline1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.125">
+
+            <ImageView
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/coin" />
+
+            <TextView
+                android:id="@+id/text_toltal_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="3000"
+                android:textSize="@dimen/_14ssp" />
+
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

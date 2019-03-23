@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hearatale.bw2000">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.interior.InteriorActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.quiz_congrats.QuizCongratsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.quiz_celebrate.QuizCelebrateActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.store_display_items.DisplayItemsActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ui.quiz.QuizActivity"
+            android:screenOrientation="landscape" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="0ee1449472e624510208dff7198bdc2a40825005" />
+
+        <activity android:name=".ui.display_score.DisplayScoreActivity"
+            android:screenOrientation="landscape" >
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hearatale.bw2000.ui.quiz.QuizActivity">
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <LinearLayout
+        android:id="@+id/layout_coins"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_coin1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_coins1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/layout_coins2"
+        app:layout_constraintStart_toEndOf="@+id/layout_coins"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/image_coin6"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin7"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin8"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin9"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin10"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_coins2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/layout_coins3"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/image_coin11"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin12"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin13"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin14"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin15"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_coins3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_coin16"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin17"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin18"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin19"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin20"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:id="@+id/layout_bags"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_bag1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:src="@drawable/bag"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/image_bag2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:src="@drawable/bag"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/image_bag3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:src="@drawable/bag"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/image_bag4"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:src="@drawable/bag"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/image_bag5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.25"
+            android:src="@drawable/bag"
+            android:visibility="invisible"/>
+
+    </LinearLayout>-->
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <ImageButton
+        android:id="@+id/button_back"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <ImageButton
+        android:id="@+id/button_repeat"
+        android:layout_width="30dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/repeat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_back"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/layout_coins_5"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/button_bag"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@mipmap/bag_half_full_of_coins"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_repeat"
+        app:layout_constraintTop_toTopOf="@+id/guideline7" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <LinearLayout
+        android:id="@+id/layout_coins_5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toEndOf="@+id/layout_coins3"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/image_coin21"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin22"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin23"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin24"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/image_coin25"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:src="@drawable/gcoin"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

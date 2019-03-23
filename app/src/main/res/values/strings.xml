@@ -1,0 +1,49 @@
+<resources>
+    <!--<string name="app_name">BrainyWords</string>-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="congratulations">Congratulations!</string>
+
+    <string name="new_message_notification_title_template">New message: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_student_id">This ID is invalid</string>
+
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="loadding">Loading...</string>
+    <string name="students">Students</string>
+    <string name="email_r_password_isincorrect">Email or Password is incorrect</string>
+    <string name="please_check_your_internet">Please check your internet</string>
+    <string name="login_success">Login success !</string>
+    <string name="student_login_success">Student Login Success</string>
+    <string name="m_continue">Continue</string>
+    <string name="back">Back</string>
+    <string name="add_new_student">Add new student</string>
+    <string name="name">Name (optional)</string>
+    <string name="student_name">Student name (optional)</string>
+    <string name="student_id">ID (3 number character)</string>
+    <string name="cancel">Cancel</string>
+    <string name="student">Student</string>
+    <string name="i_am_teacher">I\'m a Teacher</string>
+    <string name="play_game">Play game</string>
+    <string name="create_student">Create</string>
+</resources>
